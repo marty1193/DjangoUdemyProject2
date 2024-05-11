@@ -6,7 +6,7 @@ from django.http import HttpResponse, HttpResponseNotAllowed
 
 # Create your views here.
 def starting_page(request):
-    pass
+    return render(request, "blog/index.html")
     
 
 def posts(request):
